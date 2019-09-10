@@ -5,26 +5,31 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Personalized Letter</title>
+    <title>Shipping Information</title>
   </head>
   <body>
     <div class="container">
-        <h1>Fill in the blanks to get your letter!</h1>
+        <h1>Add your product shipping details</h1>
         <div id="blanks">
           <form>
-          <div class="form-group">
-            <label for="name">Your name:</label>
-            <input id="name1" class="form-control" type="text">
-          </div>
+            <div class="form-group">
+              <label for="name1">First and last name:</label>
+              <input id="name1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="address1">Street Address, including City, State and zip:</label>
+              <input id="address1" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Submit Details</button>
+          </form>
           <div id="letter">
-          <h1>YOUR Fantastical Letter</h1>
-          <p>Hello there <span class="name1"></span>,</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p>All the best,</p>
-          <p><span class="name1"></span></p>
+          <h1>Thank you for your order <span class="name1"></span>. Keep this number as your receipt. #23434</h1>
+          <div>
+            <p>Shipping Confirmation</p>
+            <p><span class="name1"></span>,</p>
+            <p><span class="address1"></span></p>
+          </div>
           </div>
         </div>
       </div>
